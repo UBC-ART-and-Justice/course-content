@@ -24,45 +24,26 @@ nav:
       - 3.4 Viruses: course/5-staying-safe/3.4-viruses.md
       - 3.5 Internet Safety: course/5-staying-safe/3.5-internet-safety.md
   - About: about.md
-  # - Internal:
-  #     - Android: 
-  #         - Device Setup: internal/android/device-setup.md
-  #         - Reference: internal/android/reference.md
-  #         - Other Notes: internal/android/other.md
-  #     - Site Setup: 
-  #         - Overview: internal/mkdocs-material/index.md
-  #         - Initial Install: internal/mkdocs-material/install-and-setup.md
-  #         - Configuration: internal/mkdocs-material/config.md
-  #         - Blog Setup: internal/mkdocs-material/blog-setup-and-config.md
-  #         - Blog Posts: internal/mkdocs-material/blog-make-post.md
 
 plugins:
-  - glightbox
-  - search
-  - privacy:
+  - glightbox                   # for images
+  - search                      # for search
+  - privacy:                    # for loading foreign content
       enabled: !ENV [CI, false]
-  - offline
+  - offline                     # for offline support
 
 markdown_extensions:
-  - admonition
-  - attr_list
-  - md_in_html
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences:
+  - admonition                  # for callout boxes
+  - attr_list                   # allows HTML attributes in markdown
+  - md_in_html                  # for markdown in HTML
+  - pymdownx.details            # makes callout boxes interactive
+  - pymdownx.superfences:       # support for diagrams
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - sane_lists
-  - pymdownx.emoji:
+  - sane_lists                  # python-markdown.github.io/extensions/sane_lists/
+  - pymdownx.emoji:             # for using icons
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
@@ -76,19 +57,17 @@ theme:
       scheme: default
       primary: teal
       accent: green
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to system preference
+    #   toggle:
+    #     icon: material/weather-sunny
+    #     name: Switch to dark mode
+    # - media: "(prefers-color-scheme: dark)"
+    #   scheme: slate
+    #   primary: black
+    #   accent: indigo
+    #   toggle:
+    #     icon: material/weather-night
+    #     name: Switch to system preference
   features:
-    # - navigation.instant
-    # - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
@@ -98,8 +77,6 @@ theme:
     - search.highlight
     - content.code.copy
     - content.code.select
-  icon:
-    repo: fontawesome/brands/github
 
 extra:
   generator: false  # false: hides 'Generated with MkDocs' message in footer

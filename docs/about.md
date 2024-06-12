@@ -29,3 +29,5 @@ This website was made using [mkDocs-material](https://squidfunk.github.io/mkdocs
     - <a href="https://www.flaticon.com/free-icons/books" title="books icons">Books by popo2021 (Flaticon)</a>
     - <a href="https://www.flaticon.com/free-icons/bucket" title="bucket icons">Bucket by Smashicons (Flaticon)</a>
     - <a href="https://www.flaticon.com/free-icons/cat" title="cat icons">Cat by Freepik (Flaticon)</a>
+
+<br><br><br><br>
