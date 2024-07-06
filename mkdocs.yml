@@ -3,7 +3,7 @@ copyright: Copyright &copy; UBC A.R.T. and Justice
 
 nav:
   - Home: index.md
-  - Course: 
+  - Course:
       - About Course: course/index.md
       - ✉️ Unit 1 | Communication: course/1-communication/index.md
       - 1.1 - Email: course/1-communication/1.1-email.md
@@ -17,33 +17,40 @@ nav:
       - 2.2 - How to save a file: course/2-file-system/2.2-saving-files.md
       - 2.3 - File Directories: course/2-file-system/2.3-directories.md
 
-      - 🌎 Unit 3 | Staying Safe: course/5-staying-safe/index.md
+      - 🔒 Unit 3 | Staying Safe: course/5-staying-safe/index.md
       - 3.1 Updates: course/5-staying-safe/3.1-updates.md
       - 3.2 Passwords: course/5-staying-safe/3.2-passwords.md
       - 3.3 Encryption: course/5-staying-safe/3.3-encryption.md
       - 3.4 Viruses: course/5-staying-safe/3.4-viruses.md
       - 3.5 Internet Safety: course/5-staying-safe/3.5-internet-safety.md
+
+      - 🌎 Unit 4 | Apps and the Internet: course/6-apps-and-internet/index.md
+      - 4.1 Connecting to the Internet: course/6-apps-and-internet/6.1-connecting-to-the-internet.md
+      - 4.2 Navigating Websites: course/6-apps-and-internet/6.2-navigating-websites.md
+      - 4.3 Browswers and Search Engines: course/6-apps-and-internet/6.3-browsers-and-search-engines.md
+      - 4.4 Using Apps: course/6-apps-and-internet/6.4-using-apps.md
+      - 4.5 Reputable Sources: course/6-apps-and-internet/6.5-reputabe-sources.md
   - About: about.md
 
 plugins:
-  - glightbox                   # for images
-  - search                      # for search
-  - privacy:                    # for loading foreign content
+  - glightbox # for images
+  - search # for search
+  - privacy: # for loading foreign content
       enabled: !ENV [CI, false]
-  - offline                     # for offline support
+  - offline # for offline support
 
 markdown_extensions:
-  - admonition                  # for callout boxes
-  - attr_list                   # allows HTML attributes in markdown
-  - md_in_html                  # for markdown in HTML
-  - pymdownx.details            # makes callout boxes interactive
-  - pymdownx.superfences:       # support for diagrams
+  - admonition # for callout boxes
+  - attr_list # allows HTML attributes in markdown
+  - md_in_html # for markdown in HTML
+  - pymdownx.details # makes callout boxes interactive
+  - pymdownx.superfences: # support for diagrams
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - sane_lists                  # python-markdown.github.io/extensions/sane_lists/
-  - pymdownx.emoji:             # for using icons
+  - sane_lists # python-markdown.github.io/extensions/sane_lists/
+  - pymdownx.emoji: # for using icons
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
@@ -79,7 +86,7 @@ theme:
     - content.code.select
 
 extra:
-  generator: false  # false: hides 'Generated with MkDocs' message in footer
+  generator: false # false: hides 'Generated with MkDocs' message in footer
 
 extra_css:
   - assets/stylesheets/extra.css
