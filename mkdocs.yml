@@ -5,6 +5,9 @@ nav:
   - Home: index.md
   - Course:
       - About Course: course/index.md
+
+      - Introduction | The Technology Terror Experience: course/tech-terror-experience.md
+
       - 📱 Unit 1 | Navigating Your Tablet: course/1-tablet-navigation/index.md
       - 1.1 The Keyboard: course/1-tablet-navigation/1.1-the-keyboard.md
       - 1.2 Terminology: course/1-tablet-navigation/1.2-terminology.md
