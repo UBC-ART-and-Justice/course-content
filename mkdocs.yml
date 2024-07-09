@@ -37,6 +37,9 @@ nav:
       - 5.3 - Direct Messaging: course/5-communication/5.3-direct-message.md
       - 5.4 - Video Calls: course/5-communication/5.4-video-calls.md
       - 5.5 - Social Media: course/5-communication/5.5-social-media.md
+
+      - Test Page 1: course/test-page-1.md
+      - Test Page 2: course/test-page-2.md
   - About: about.md
 
 plugins:
