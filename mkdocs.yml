@@ -19,10 +19,11 @@ nav:
       - 2.4 Using Apps: course/2-apps-and-internet/2.4-apps.md
       - 2.5 Reputable Sources: course/2-apps-and-internet/2.5-reputable-sources.md
 
-      - 📂 Unit 3 | File Saving and Sharing: course/3-file-system/index.md
-      - 3.1 - What is a file: course/3-file-system/3.1-files.md
-      - 3.2 - How to save a file: course/3-file-system/3.2-saving-files.md
-      - 3.3 - File Directories: course/3-file-system/3.3-directories.md
+      - 📂 Unit 3 | Files: course/3-file-system/index.md
+      - 3.1 - What is a file?: course/3-file-system/3.1-files.md
+      - 3.2 - Folders: course/3-file-system/3.2-folders.md
+      - 3.3 - Saving Files: course/3-file-system/3.3-saving-files.md
+      - 3.4 - Sharing Files: course/3-file-system/3.4-sharing-files.md
 
       - 🔒 Unit 4 | Staying Safe: course/4-staying-safe/index.md
       - 4.1 Updates: course/4-staying-safe/4.1-updates.md
