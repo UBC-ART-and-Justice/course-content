@@ -1,12 +1,12 @@
-site_name: Digital Literacy Course
+site_name: Learning Digital Literacy
 copyright: Copyright &copy; UBC A.R.T. and Justice
 
 nav:
   - Home: index.md
-  - Course:
-      - About Course: course/index.md
+  - Content:
+      - course/index.md
 
-      - Introduction | The Technology Terror Experience: course/tech-terror-experience.md
+      - 👋 Introduction | The Technology Terror Experience: course/tech-terror-experience.md
 
       - 📱 Unit 1 | Navigating Your Tablet: course/1-tablet-navigation/index.md
       - 1.1 The Keyboard: course/1-tablet-navigation/1.1-the-keyboard.md

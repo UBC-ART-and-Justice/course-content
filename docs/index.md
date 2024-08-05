@@ -15,7 +15,7 @@ hide:
 
   <div style="min-width: 200px; text-align: right;">
     <a href="course/index.html" style="display: inline-block; padding: 20px 40px; font-size: 24px; color: white; background-color: #009485; text-align: center; text-decoration: none; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, transform 0.3s;" onmouseover="this.style.backgroundColor='#007d6f'" onmouseout="this.style.backgroundColor='#009485'" onmousedown="this.style.transform='scale(0.98)'" onmouseup="this.style.transform='scale(1)'">
-        Open the Course
+        Open the Content
     </a>
   </div>
 </div>
