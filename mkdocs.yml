@@ -46,7 +46,8 @@ nav:
   - About: about.md
 
 plugins:
-  - glightbox # for images
+  - glightbox: # for images
+      manual: true
   - search # for search
   - privacy: # for loading foreign content
       enabled: !ENV [CI, false]
